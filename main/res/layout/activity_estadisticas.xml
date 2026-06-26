@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estadísticas semanales"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E8F5E9"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/tvRacha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Racha actual: 0 días!"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos por día (Máx. 50 pts)"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPuntosLunes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunes: 0 pts"/>
+
+    <ProgressBar
+        android:id="@+id/barLunes"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progressTint="#2E7D32"/>
+
+    <TextView
+        android:id="@+id/tvPuntosMartes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Martes: 0 pts"/>
+
+    <ProgressBar
+        android:id="@+id/barMartes"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progressTint="#2E7D32"/>
+
+    <TextView
+        android:id="@+id/tvPuntosMiercoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miercoles: 0 pts"/>
+
+    <ProgressBar
+        android:id="@+id/barMiercoles"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progressTint="#2E7D32"/>
+
+    <TextView
+        android:id="@+id/tvPuntosJueves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jueves: 0 pts"/>
+
+    <ProgressBar
+        android:id="@+id/barJueves"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progressTint="#2E7D32"/>
+
+    <TextView
+        android:id="@+id/tvPuntosViernes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Viernes: 0 pts"/>
+
+    <ProgressBar
+        android:id="@+id/barViernes"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progressTint="#2E7D32"/>
+
+</LinearLayout>
